@@ -1,4 +1,4 @@
-# Exercise Clases and Objects
+# Exercise Classes and Objects
 # Pet Store
 
 Create a console application that simulates adding animals to a pet store.
