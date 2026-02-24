@@ -63,6 +63,17 @@ Note: Use the following link for a guide on how to implement the radio buttons: 
     - City: `InputText`
     - Candidate: `InputRadioGroup`
         - There should be a `InputRadio` component for each candidate in the `Candidates` list (described below).
+        - Add the following list to the `@code` block in the page:
+            ```
+            private List<string> Candidates = new List<string>
+            {
+                "Dancing Dan",
+                "Roller Blading Guitar Guy",
+                "The Current Mayor",
+                "A rock with googley eyes glued to it"
+            };
+            ```
+        - Use the `Candidates` list when creating the `InputRadioGroup`
     - ConfidenceLevel: `InputNumber`
 4. Bind the fields to the appropriate properties of a `Poll` object.
 5. Provide a validation summary and a validation for each field.
