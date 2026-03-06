@@ -8,7 +8,7 @@ Before starting, copy the `TaskItem` and `Poll` models from Lesson 22 into a new
 
 1. Create a new DbContext class that includes a DbSet<TaskItem> and DbSet<Poll> properties.
 2. Register the DbContext with the services in `Program.cs`.
-3. Migrate the models to the database using the CLI and the `dotnet` tools.
+3. Create the database in `Program.cs`
 
 ## Services
 1. Create a `TaskService` class with the following structure:
